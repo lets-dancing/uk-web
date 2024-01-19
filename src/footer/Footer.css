@@ -1,0 +1,17 @@
+.FooterContent {
+    /* Taking the full height of the body. No scroll */
+    position: relative;
+    margin-top: 200px;
+}
+.content-wrap {
+    /* Leave space for the footer. Important */
+    padding-bottom: 4rem;
+}
+
+.footer {
+    /* Fixing the footer at the bottom  */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+}
